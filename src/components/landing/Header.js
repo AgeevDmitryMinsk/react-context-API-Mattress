@@ -4,7 +4,7 @@ import { TranslationContext, translations } from '../../contexts/translation/Tra
 
 function Header() {
     const translation = React.useContext(TranslationContext);
-    console.log(translation, translation.title)
+    // console.log(translation, translation.title)
   return (
     <h1 className="header-title">{translation.title}</h1>
   );
